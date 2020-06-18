@@ -1,0 +1,31 @@
+body {font-family: 'Varela Round', sans-serif;}
+#titulo h1{
+  font-family: 'MuseoModerno', cursive;
+  font-size: 3em;
+  color: rgb(63,86,125);
+  margin-left: 8%;
+}
+#titulo { background-color: rgba(177,234,234,.88);
+border-radius: 0;
+padding: 2rem 1rem;}
+#content {
+  padding: 0 8%;
+}
+#lista-perfumes > div {
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+}
+#lista-perfumes p {font-size: .9em;}
+#lista-perfumes h3 {font-size: .9em;}
+
+.precio span {
+  font-size: .85em;
+  color: rgb(110,30,220);
+  align-self: center;
+}
+.precio button {
+  margin-left: auto;
+  font-size: .7em;
+}
+.precio {display: flex; padding-right: 10%; margin-top: auto;}

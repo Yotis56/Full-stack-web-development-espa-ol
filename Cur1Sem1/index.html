@@ -3,23 +3,54 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css" >
-    <title>Guía Hoteles</title>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Guía Perfumes</title>
   </head>
   <body>
-    <div class="jumbotron"><h1>Hoteles</h1></div>
-    <div class="container-fluid">
+    <div class="jumbotron" id="titulo"><h1>Lacoste</h1></div>
+    <div class="container-fluid" id="content">
       <div class="row">
-        <div class="col-sm-4"><h3>¿Cómo funciona?</h3><p>Busca los hoteles de acuerdo a tu preferencia</p></div>
-        <div class="col-sm-4"><h3>¿Dónde puedo reservar?</h3><p>Elige la ciudad que te interesa y luego eraliza la reserva con tus datos</p></div>
-        <div class="col-sm-4"><h3>¿Cómo pago?</h3><p>Utiliza tu medio de pago preferido. Hay soporte para todos los medios existentes.</p></div>
+        <div class="col-sm-4"><h3>¿Qué es Lacoste?</h3><p>Lacoste es una casa de moda francesa, fundada en 1933 por el jugador de tenis René Lacoste y André Gillier. La marca es reconocida por su logo de un cocodrilo verde, logo que ponen casi en la mayoría de sus artículos.</p></div>
+        <div class="col-sm-4"><h3>¿Qué venden?</h3><p> que vende ropa, calzado, relojes y perfumes. Es famosa por sus camisas de polo al desgaste tipo tenis que ofrecen el logotipo del cocodrilo verde de la compañía. Originalmente producido sólo en "pista de blanco", la compañía comenzó a ofrecer esta prenda en 1952. La camisa de tenis Lacoste fue un elemento básico de la década de 1980 la tendencia ropa "preppy" y sigue siendo un éxito de ventas en la actualidad.</p></div>
+        <div class="col-sm-4"><h3>¿Perfumes?</h3><p>Lacoste tiene 35 perfumes en su historia. La primera edición fue creado en 1984 y el más reciente es de 2015. Se hicieron fragancias Lacoste en colaboración con los perfumistas Olivier Cresp, Laurent Bruyere, Jean-Michel Duriez, Claude Dir, Annick Menardo y Domitille Michalon..</p></div>
       </div>
       <hr>
-      <div class="row" id="list-hoteles">
-        <div class="col-sm-3"><h4>Hotel Barcelona</h4><p>Hotel ubicado en pleno centro de Barcelona, a pocos metros de la playa</p><button class="btn btn-success">Reservar</button></div>
-        <div class="col-sm-3"><h4>Hotel Buenos Aires</h4><p>Hotel ubicado en pleno centro. Cerca al obelisco.</p><button class="btn btn-success">Reservar</button></div>
-        <div class="col-sm-3"><h4>Hotel Buenos Aires</h4><p>Hotel ubicado en pleno centro</p><button class="btn btn-success">Reservar</button></div>
-        <div class="col-sm-3"><h4>Hotel Rio de Janeiro</h4><p>Hotel ubicado en pleno centro, a pocos metros de la playa.</p><button class="btn btn-success">Reservar</button></div>
+      <div class="row" id="lista-perfumes">
+        <div class="col-md-3 col-sm-4">
+          <img src="./images/lacoste_blanc_1.jpg" alt="Blanc" class="img-fluid"><h4>Lacoste Blanc</h4><p>Perfume para hombre Lacoste Blanc L.12.12 100 ml</p>
+          <div class="precio"><span>$320.000</span><button class="btn btn-success">Comprar</button></div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <img src="./images/lacoste_jaune.jpg" alt="Jaune" class="img-fluid"><h4>Lacoste Jaune</h4><p>Perfume para hombre Lacoste Jaune L.12.12 100 ml</p>
+          <div class="precio"><span>$320.000</span><button class="btn btn-success">Comprar</button></div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <img src="./images/lacoste-rouge.jpg" alt="Rouge" class="img-fluid"><h4>Lacoste Rouge</h4><p>Perfume para hombre Lacoste Rouge L.12.12 200 ml</p>
+          <div class="precio"><span>$540.000</span><button class="btn btn-success">Comprar</button></div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <img src="./images/lacoste_noir.jpg" alt="Noir" class="img-fluid"><h4>Lacoste Noir</h4><p>Perfume para hombre Lacoste Noir L.12.12 100 ml</p>
+          <div class="precio"><span>$280.000</span><button class="btn btn-success">Comprar</button></div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <img src="./images/lacoste_pour-homme.jpg" alt="Pour Homme" class="img-fluid"><h4>Lacoste Pour Homme</h4><p>Perfume para hombre Lacoste Pour Homme EDT 100 ml</p>
+          <div class="precio"><span>$250.000</span><button class="btn btn-success">Comprar</button></div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <img src="./images/lacoste-eau-fraiche.jpg" alt="Fraiche" class="img-fluid"><h4>Lacoste Eau Fraiche</h4><p>Perfume para hombre Lacoste L.12.12 Pour Lui Eau Fraiche EDT 100 ml</p>
+          <div class="precio"><span>$250.000</span><button class="btn btn-success">Comprar</button></div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <img src="./images/lacoste-french-panache.jpg" alt="French" class="img-fluid"><h4>Lacoste French Panache</h4><p>Perfume para hombre Lacoste L.12.12 Pour Lui French Panache 100 ml</p>
+          <div class="precio"><span>$250.000</span><button class="btn btn-success">Comprar</button></div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <img src="./images/pour_lui_magnetic.jpg" alt="Magnetic" class="img-fluid"><h4>Lacoste magnetic</h4><p>Perfume para hombre Lacoste L.12.12 Pour Lui magnetic EDL 100 ml</p>
+          <div class="precio"><span>$220.000</span><button class="btn btn-success">Comprar</button></div>
+        </div>
+
       </div>
     </div>
 
