@@ -4,12 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="images/open-iconic-master/font/css/open-iconic-bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Guía Perfumes</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">FakePerfume.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar-main" aria-controls="Navbar-main" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="Navbar-main">
+        <a class="nav-item nav-link active" href="index.html">Home</a>
+        <a class="nav-item nav-link" href="about.html">Sobre Nosotros</a>
+        <a class="nav-item nav-link" href="#">Productos</a>
+        <a class="nav-item nav-link" href="#">Terminos y Condiciones</a>
+        <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+      </div>
+    </nav>
+
     <div class="jumbotron" id="titulo"><h1>Lacoste</h1></div>
+
+    <div class="container" id="breadcrumb">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
+        </ol>
+      </nav>
+    </div>
+
     <div class="container-fluid" id="content">
       <div class="row">
         <div class="col-sm-4"><h3>¿Qué es Lacoste?</h3><p>Lacoste es una casa de moda francesa, fundada en 1933 por el jugador de tenis René Lacoste y André Gillier. La marca es reconocida por su logo de un cocodrilo verde, logo que ponen casi en la mayoría de sus artículos.</p></div>
@@ -67,8 +89,8 @@
         <address class="contacto">
           Carrera 35 bis #117-78. <br>
           Bogota, Colombia. <br>
-          6234893. <br>
-          <span class="iconic iconic-star" title="star" aria-hidden="true"></span>contacto@fakeperfumes.com
+          <span class="oi oi-star" title="star" aria-hidden="true"></span>6234893. <br>
+          contacto@fakeperfumes.com
         </address>
       </div>
       <div class="col-sm-4 align-items-end" id="infolinks">
@@ -84,7 +106,6 @@
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/popper.js/dist/popper.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
 
   </body>
 </html>

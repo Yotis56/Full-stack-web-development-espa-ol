@@ -1,0 +1,49 @@
+body {font-family: 'Varela Round', sans-serif;}
+#titulo h1{
+  font-family: 'MuseoModerno', cursive;
+  font-size: 3em;
+  color: rgb(63,86,125);
+  margin-left: 8%;
+}
+#titulo {
+  background-color: rgba(177,234,234,.88);
+  border-radius: 0;
+  padding: 2rem 1rem;
+  margin: 48px 0px 15px;
+}
+#content {
+  padding: 0 8%;
+}
+#lista-perfumes > div {
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+}
+#lista-perfumes p {font-size: .9em;}
+#lista-perfumes h3 {font-size: .9em;}
+#lista-perfumes {margin-bottom: 15%;}
+
+.precio span {
+  font-size: .85em;
+  color: rgb(110,30,220);
+  align-self: center;
+}
+.precio button {
+  margin-left: auto;
+  font-size: .7em;
+}
+.precio {display: flex; padding-right: 10%; margin-top: auto;}
+footer{
+  background-color: #5f6269;
+  padding: 15px 7%;
+  }
+#redes{color: #222;font-size: 1.2rem; font-weight: bold;  }
+.retribution { font-size: .6rem; margin-top: auto;}
+.contacto{align-content: center; font-size: .8rem;justify-content: center; text-align: center;}
+#infolinks{text-align: right; font-size: .8rem;}
+
+#infolinks a {text-decoration: none;color: #222;}
+#infolinks:hover a, #infolinks:active a {color: #000;}
+/* estilos añadidos para el segundo ejercicio */
+#Navbar-main a {color: #d4dee8;}
+#breadcrumb { margin-bottom: 25px;}
