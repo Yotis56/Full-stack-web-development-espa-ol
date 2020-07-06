@@ -23,16 +23,16 @@ body {font-family: 'Varela Round', sans-serif;}
 #lista-perfumes h3 {font-size: .9em;}
 #lista-perfumes {margin-bottom: 15%;}
 
-.precio span {
+#precio span {
   font-size: .85em;
   color: rgb(110,30,220);
   align-self: center;
 }
-.precio button {
+#precio button {
   margin-left: auto;
   font-size: .7em;
 }
-.precio {display: flex; padding-right: 10%; margin-top: auto;}
+#precio {display: flex; margin-top: auto;}
 footer{
   background-color: #5f6269;
   padding: 15px 7%;
@@ -47,3 +47,13 @@ footer{
 /* estilos añadidos para el segundo ejercicio */
 #Navbar-main a {color: #d4dee8;}
 #breadcrumb { margin-bottom: 25px;}
+#form-example {margin-bottom: 50px;}
+#banner {width: 100%; margin: 40px 0 20px;}
+#content > div > div {
+  display: flex;
+  flex-direction: column;
+}
+#content h3 {margin-top: auto;}
+.card-body{
+  padding: 0.5rem;
+}
